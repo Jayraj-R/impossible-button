@@ -143,15 +143,15 @@ const ImpButton = () => {
 									id='Vector 4'
 									d='M170.199 57.3054L174.481 61.588'
 									stroke='#E9C6AF'
-									stroke-width='2'
-									stroke-linecap='round'
+									strokeWidth='2'
+									strokeLinecap='round'
 								/>
 								<path
 									id='Vector 5'
 									d='M191.092 63.4613L185.19 64.8213'
 									stroke='#E9C6AF'
-									stroke-width='2'
-									stroke-linecap='round'
+									strokeWidth='2'
+									strokeLinecap='round'
 								/>
 							</g>
 						)}
