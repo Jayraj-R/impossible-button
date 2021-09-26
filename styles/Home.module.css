@@ -7,6 +7,8 @@
     position: relative;
     min-width: fit-content;
     min-height: max-content;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 
 .container {
@@ -114,4 +116,8 @@
     .container {
         transform: scale(0.7);
     }
+}
+
+.code {
+    text-decoration: underline;
 }
