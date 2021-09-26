@@ -12,11 +12,7 @@ const ImpButton = () => {
 		setMood(true);
 		setHand(true);
 		setCounter(counter + 1);
-		console.log(counter);
 
-		if (counter === 4) {
-			router.push('https://www.wikihow.com/Get-a-Life');
-		}
 		if (!mood) {
 			setTimeout(() => {
 				setMood(false);
@@ -25,7 +21,10 @@ const ImpButton = () => {
 				setHand(false);
 			}, 1500);
 		}
-		console.log(mood);
+
+		if (counter === 4) {
+			router.push('https://www.wikihow.com/Get-a-Life');
+		}
 	};
 
 	return (

@@ -5,6 +5,8 @@
     height: 100vh;
     background-color: #00c9a9;
     position: relative;
+    min-width: fit-content;
+    min-height: max-content;
 }
 
 .container {
@@ -106,4 +108,10 @@
     position: absolute;
     left: 10px;
     top: 99%;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        transform: scale(0.7);
+    }
 }
